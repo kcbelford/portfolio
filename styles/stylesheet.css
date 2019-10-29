@@ -3,7 +3,9 @@
   }
 
 body {
-  background: #FFFFFF; font-family: platino; margin: 50px;
+  background: #FFFFFF;
+  font-family: arial;
+  margin: 50px;
   }
 
 .main-header {
@@ -16,6 +18,7 @@ body {
 
 p {
   color: #404040; font-weight: bold; font-weight: lighter;
+  font-size: 18px;
   }
 
 img {
@@ -34,40 +37,59 @@ ul {
   padding: 0;
   }
 
-  li {
-    display: inline;
-    padding: 12px;
-    }
+li {
+  display: inline;
+  padding: 10px 25px 10px 25px;
+  }
 
-  .hello {
-    font-weight: lighter;
-    }
+.hello {
+  font-weight: lighter;
+  }
 
-  header {
-    margin-bottom: 65px;
-    }
+header {
+  margin-bottom: 65px;
+  }
 
-  footer {
-    margin-top: 65px;
-    }
+footer {
+  margin-top: 65px;
+  text-align: center;
+  }
 
-  h1 {
+h1 {
+  text-align: center;
+  }
+
+h2 {
     text-align: center;
     }
 
-  h2 {
-      text-align: center;
-      }
+ul {
+  text-align: center;
+  }
 
-  ul {
-    text-align: center;
-    }
+.kevin-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  }
 
-  .kevin-picture {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    }
+.active {
+  font-color: #d0e1ee;
+  }
+
+hr {
+  border-top: 1px solid #d3d3d3;
+  margin-top: 65px;
+  margin-bottom: 65px;
+  }
+
+nav {
+  margin-top: 65px;
+  }
+
+nav a {
+  text-decoration: none;
+  }
