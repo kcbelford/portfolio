@@ -1,3 +1,12 @@
 * {
   box-sizing: border-box;
   }
+body {
+  background: #FFFFFF;
+  }
+
+.main-header {color: #2F4F4F;}
+
+img {
+  border: 3px solid #9d9e9e;
+  }
