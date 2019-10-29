@@ -2,10 +2,11 @@
   box-sizing: border-box;
   }
 body {
-  background: #FFFFFF;
+  background: #FFFFFF; font-family: arial;
   }
 
-.main-header {color: #2F4F4F;}
+.main-header {color: #2F4F4F; letter-spacing: font-family: helvetica;
+  }
 
 img {
   border: 3px solid #9d9e9e;
