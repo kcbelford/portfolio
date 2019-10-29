@@ -9,7 +9,7 @@ body {
   }
 
 .main-header {
-  color: #2F4F4F; letter-spacing: font-family: helvetica; font-size: 50px;
+  color: #2F4F4F; font-family: helvetica; font-size: 50px;
   }
 
 .second-header {
@@ -74,10 +74,6 @@ ul {
   border: none;
   padding-top: 30px;
   padding-bottom: 30px;
-  }
-
-.active {
-  font-color: #d0e1ee;
   }
 
 hr {
