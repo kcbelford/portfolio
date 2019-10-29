@@ -1,13 +1,73 @@
 * {
   box-sizing: border-box;
   }
+
 body {
-  background: #FFFFFF; font-family: arial;
+  background: #FFFFFF; font-family: platino; margin: 50px;
   }
 
-.main-header {color: #2F4F4F; letter-spacing: font-family: helvetica;
+.main-header {
+  color: #2F4F4F; letter-spacing: font-family: helvetica; font-size: 50px;
+  }
+
+.second-header {
+  font-weight: 100; color: #669999;
+  }
+
+p {
+  color: #404040; font-weight: bold; font-weight: lighter;
   }
 
 img {
-  border: 3px solid #9d9e9e;
+  border: 2px solid #9d9e9e;
   }
+
+.about-paragraph {
+  margin-right: auto;
+  margin-left: auto;
+  width: 35em;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+  li {
+    display: inline;
+    padding: 12px;
+    }
+
+  .hello {
+    font-weight: lighter;
+    }
+
+  header {
+    margin-bottom: 65px;
+    }
+
+  footer {
+    margin-top: 65px;
+    }
+
+  h1 {
+    text-align: center;
+    }
+
+  h2 {
+      text-align: center;
+      }
+
+  ul {
+    text-align: center;
+    }
+
+  .kevin-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
