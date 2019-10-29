@@ -93,3 +93,11 @@ nav {
 nav a {
   text-decoration: none;
   }
+
+a:visited {
+  color: #404040;
+  }
+
+a:hover {
+  color: #d3d3d5;
+  }
