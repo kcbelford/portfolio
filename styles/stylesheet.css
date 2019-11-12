@@ -4,12 +4,12 @@
 
 body {
   background: #FFFFFF;
-  font-family: arial;
+  font-family: 'Raleway', sans-serif;
   margin: 50px;
   }
 
 .main-header {
-  color: #2F4F4F; font-family: helvetica; font-size: 50px;
+  color: #2F4F4F; font-size: 50px;
   }
 
 .second-header {
@@ -22,19 +22,19 @@ p {
   }
 
 img {
+  width: 40%;
   border: 2px solid #9d9e9e;
   }
 
 .about-paragraph {
-  margin-right: auto;
-  margin-left: auto;
-  width: 35em;
+  margin: auto;
+  width: 50%;
   }
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0
   }
 
 li {
@@ -46,34 +46,21 @@ li {
   font-weight: lighter;
   }
 
-header {
-  margin-bottom: 65px;
-  }
-
 footer {
+  display: flex;
+  justify-content: center;
   margin-top: 65px;
-  text-align: center;
-  }
-
-h1 {
-  text-align: center;
-  }
+}
 
 h2 {
     text-align: center;
     }
 
-ul {
-  text-align: center;
-  }
-
 .kevin-picture {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   border: none;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  width: 60%;
+  margin: auto;
+  display: flex;
   }
 
 hr {
@@ -83,6 +70,8 @@ hr {
   }
 
 nav {
+  display: flex;
+  justify-content: center;
   margin-top: 65px;
   }
 
@@ -97,3 +86,11 @@ a:visited {
 a:hover {
   color: #d3d3d5;
   }
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fas {
+  color: #669999
+}

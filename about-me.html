@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-
 <html lang= "en">
-
   <head>
     <meta charset= "utf-8">
     <title>About Me</title>
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <script src="https://kit.fontawesome.com/b07886f026.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
   </head>
-
   <body>
     <header>
-      <h1 class="main-header">Kevin Belford</h1>
-      <h2 class="second-header">FRONT-END WEB DEVELOPER</h2>
+      <div class="flex-container">
+        <h1 class="main-header">Kevin Belford</h1>
+        <h2 class="second-header">FRONT-END WEB DEVELOPER</h2>
+      </div>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -20,30 +21,35 @@
       </nav>
     </header>
     <hr>
-    <article>
-      <h2 class="hello">Hello! My name is Kevin!</h2>
-      <p>
-        <img class="kevin-picture"
-        src= "images/kevin-belford.png"
-        alt= "A portrait of Kevin Belford"
-        width= "800">
-      </p>
-      <p class="about-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-        culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    </article>
+    <main>
+      <div>
+        <article>
+          <h2 class="hello">Hello! My name is Kevin!</h2>
+          <p>
+            <img class="kevin-picture"
+            src= "images/kevin-belford.png"
+            alt= "A portrait of Kevin Belford"
+            width= "800">
+          </p>
+          <p class="about-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </article>
+      </div>
+    </main>
     <hr>
     <footer>
-      <ul>
-        <li>Email: kcbelford@hotmail.com</li>
-        <li>Phone: 425.501.0646</li>
-        <li>Address: Tacoma, WA</li>
-      </ul>
+      <div>
+        <ul>
+          <li><i class="fas fa-envelope"></i> kcbelford@hotmail.com</li>
+          <li><i class="fas fa-phone"></i> 425.501.0646</li>
+          <li><i class="fas fa-home"></i> Tacoma, WA</li>
+        </ul>
+      </div>
     </footer>
   </body>
-
 </html>
