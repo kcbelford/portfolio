@@ -33,16 +33,6 @@ li {
   display: inline;
   padding: 10px 25px 10px 25px;
 }
-.hello {
-  font-weight: lighter;
-  transition: all .25s;
-  color: black;
-  background-color: white;
-}
-.hello:hover {
-  background-color: #669999;
-  color: #ff9999;
-}
 footer {
   display: flex;
   justify-content: center;
@@ -89,4 +79,32 @@ a:hover {
 }
 .grow:hover {
   width: 42%;
+}
+.hello {
+  font-weight: lighter;
+  transition: all .25s;
+  color: black;
+  background-color: white;
+}
+.hello:hover {
+  background-color: #669999;
+  color: #ff9999;
+}
+ol {
+  display: flex;
+  justify-content: center;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+}
+ol li:nth-child(odd) {
+  color: #ff9999;
+}
+ol li:nth-child(even) {
+  color: #669999;
+}
+article p:nth-child(4) {
+  display: flex;
+  justify-content: center;
 }
