@@ -1,85 +1,91 @@
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-background: #FFFFFF;
-font-family: 'Raleway', sans-serif;
-margin: 50px;
+  background: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  margin: 50px;
 }
 .main-header {
-color: #2F4F4F; font-size: 50px;
+  color: #2F4F4F; font-size: 50px;
 }
 .second-header {
-font-weight: 100; color: #669999;
+  font-weight: 100; color: #669999;
 }
 p {
-color: #404040; font-weight: bold; font-weight: lighter;
-font-size: 18px;
+  color: #404040; font-weight: bold; font-weight: lighter;
+  font-size: 18px;
 }
 img {
-width: 40%;
-border: 2px solid #9d9e9e;
+  width: 40%;
+  border: 2px solid #9d9e9e;
 }
 .about-paragraph {
-margin: auto;
-width: 50%;
+  margin: auto;
+  width: 50%;
 }
 ul {
-list-style-type: none;
-margin: 0;
-padding: 0
+  list-style-type: none;
+  margin: 0;
+  padding: 0
 }
 li {
-display: inline;
-padding: 10px 25px 10px 25px;
+  display: inline;
+  padding: 10px 25px 10px 25px;
 }
 .hello {
-font-weight: lighter;
+  font-weight: lighter;
+  transition: all .25s;
+  color: black;
+  background-color: white;
+}
+.hello:hover {
+  background-color: #669999;
+  color: #ff9999;
 }
 footer {
-display: flex;
-justify-content: center;
-margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
 }
 h2 {
-text-align: center;
+  text-align: center;
 }
 .kevin-picture {
-border: none;
-width: 60%;
-margin: auto;
-display: flex;
+  border: none;
+  width: 60%;
+  margin: auto;
+  display: flex;
 }
 hr {
-border-top: 1px solid #d3d3d3;
-margin-top: 65px;
-margin-bottom: 65px;
+  border-top: 1px solid #d3d3d3;
+  margin-top: 65px;
+  margin-bottom: 65px;
 }
 nav {
-display: flex;
-justify-content: center;
-margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
 }
 nav a {
-text-decoration: none;
+  text-decoration: none;
 }
 a:visited {
-color: #404040;
+  color: #404040;
 }
 a:hover {
-color: #d3d3d5;
+  color: #d3d3d5;
 }
 .flex-container {
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .fas {
-color: #669999
+  color: #669999
 }
 .grow {
-  width: 40%;
-  transition-duration: .5s;
+  transition: all .5s;
 }
 .grow:hover {
   width: 42%;
