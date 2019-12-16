@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang= "en">
+  <head>
+    <meta charset= "utf-8">
+    <title>Kevin Belford Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <script src="https://kit.fontawesome.com/b07886f026.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="flex-container">
+        <h1 class="main-header">Kevin Belford</h1>
+        <h2 class="second-header">FRONT-END WEB DEVELOPER</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-me.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a><li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
+    <main>
+      <h2>Let's get in touch!</h2>
+      <form action="/action.php" method="GET">
+        <label for="first-name">
+          <span class=form-fields>First Name:</span>
+          <input type="text" name="first-name" id="first-name">
+        </label>
+        <label for="last-name">
+          <span class="form-fields">Last Name:</span>
+          <input type="text" name="last-name" id="last-name">
+        </label>
+        <label for="email">
+          <span class="form-fields">Email:</span>
+          <input type="email" name="email" id="email">
+        </label>
+        <label for="in-regards-to">
+          <span class="form-fields">What is this in regards to?</span>
+          <input type="radio" name="in-regards-to" value="jobs" id="jobs"><span class="select">Jobs</span>
+          <input type="radio" name="in-regards-to" value="collaboration" id="collaboration"><span class="select">Collaboration</span>
+          <input type="radio" name="in-regards-to" value="hang-out" id="hang-out"><span class="select">Hang Out</span>
+        </label>
+        <label for="foods">
+          <span class="form-fields">Do we share any of the same favorite foods?</span>
+          <input type="checkbox" name="foods" value="pizza" id="pizza"><span class="select">Pizza</span>
+          <input type="checkbox" name="foods" value="donuts" id="donuts"><span class="select">Donuts</span>
+          <input type="checkbox" name="foods" value="ice-cream" id="ice=cream"><span class="select">Ice Cream</span>
+          <input type="checkbox" name="foods" value="mexican" id="mexican"><span class="select">Mexican</span>
+        </label>
+        <label for="additional-info">
+          <span class="form-fields">Additonal Info:</span>
+          <textarea name="additional-info" rows="5" cols="25" id="additional-info">
+          </textarea>
+        </label>
+        <input type="submit" value="submit" name="submit">
+      </form>
+    </main>
+    <hr>
+    <footer>
+      <div>
+        <ul>
+          <li><i class="fas fa-envelope"></i> kcbelford@hotmail.com</li>
+          <li><i class="fas fa-phone"></i> 425.501.0646</li>
+          <li><i class="fas fa-home"></i> Tacoma, WA</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
