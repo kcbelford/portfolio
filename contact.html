@@ -26,7 +26,7 @@
       <h2>Let's get in touch!</h2>
       <form action="/action.php" method="GET">
         <label for="first-name">
-          <span class=form-fields>First Name:</span>
+          <span class="form-fields">First Name:</span>
           <input type="text" name="first-name" id="first-name">
         </label>
         <label for="last-name">
@@ -37,18 +37,34 @@
           <span class="form-fields">Email:</span>
           <input type="email" name="email" id="email">
         </label>
-        <label for="in-regards-to">
-          <span class="form-fields">What is this in regards to?</span>
-          <input type="radio" name="in-regards-to" value="jobs" id="jobs"><span class="select">Jobs</span>
-          <input type="radio" name="in-regards-to" value="collaboration" id="collaboration"><span class="select">Collaboration</span>
-          <input type="radio" name="in-regards-to" value="hang-out" id="hang-out"><span class="select">Hang Out</span>
+        <p class="form-fields">What is this in regards to?</p>
+        <label for="jobs">
+          Jobs
+          <input type="radio" name="in-regards-to" value="jobs" id="jobs">
         </label>
-        <label for="foods">
-          <span class="form-fields">Do we share any of the same favorite foods?</span>
-          <input type="checkbox" name="foods" value="pizza" id="pizza"><span class="select">Pizza</span>
-          <input type="checkbox" name="foods" value="donuts" id="donuts"><span class="select">Donuts</span>
-          <input type="checkbox" name="foods" value="ice-cream" id="ice=cream"><span class="select">Ice Cream</span>
-          <input type="checkbox" name="foods" value="mexican" id="mexican"><span class="select">Mexican</span>
+        <label for="collaboration">
+          Collaboration
+          <input type="radio" name="in-regards-to" value="collaboration" id="collaboration">
+        </label>
+        <label for="hang-out">
+          Hang Out
+          <input type="radio" name="in-regards-to" value="hang-out" id="hang-out">
+        </label>
+        <p class="form-fields">Do we share any of the same favorite foods?</p>
+        <label for="pizza">Pizza
+          <input type="checkbox" name="foods" value="pizza" id="pizza">
+        </label>
+        <label for="donuts">
+          Donuts
+          <input type="checkbox" name="foods" value="donuts" id="donuts">
+        </label>
+        <label for="ice-cream">
+          Ice Cream
+          <input type="checkbox" name="foods" value="ice-cream" id="ice-cream">
+        </label>
+        <label for="mexican">
+          Mexican
+          <input type="checkbox" name="foods" value="mexican" id="mexican">
         </label>
         <label for="additional-info">
           <span class="form-fields">Additonal Info:</span>
