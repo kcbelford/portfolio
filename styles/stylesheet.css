@@ -25,13 +25,16 @@ img {
   width: 50%;
 }
 ul {
+  display: flex;
+  justify-content: center;
   list-style-type: none;
   margin: 0;
-  padding: 0
+  padding: 0;
 }
-li {
+.main-nav {
   display: inline;
   padding: 10px 25px 10px 25px;
+  font-size: 18px;
 }
 footer {
   display: flex;
@@ -50,11 +53,11 @@ h2 {
 hr {
   border-top: 1px solid #d3d3d3;
   margin-top: 65px;
-  margin-bottom: 65px;
+  margin-bottom: 20px;
 }
 nav {
-  display: flex;
-  justify-content: center;
+  /*display: flex;
+  justify-content: center;*/
   margin-top: 65px;
 }
 nav a {
@@ -115,6 +118,32 @@ article p:nth-child(4) {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+ul.breadcrumb {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 4rem;
+  list-style: none;
+}
+ul.breadcrumb li {
+  font-size: 14px;
+}
+ul.breadcrumb li+li:before {
+  padding: 2rem;
+  color: #404040;
+  content: "/";
+}
+ul.breadcrumb li a {
+  color: #669999;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #d3d3d5;
+  text-decoration: underline;
+}
+ul.breadcrumb li a:visited {
+  color: #404040;
 }
 
 /*css styling for contact form*/
